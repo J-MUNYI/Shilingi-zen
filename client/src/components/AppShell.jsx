@@ -30,10 +30,10 @@ export default function AppShell({ title, subtitle, children, aside }) {
           <img src={logo} alt="Budget Zen logo" className="shell-brand-logo" />
           <div>
             <p className="shell-brand-title" style={{ fontFamily: "var(--font-secondary)" }}>
-              {user?.name || "Budget Zen"}
+              {user?.name || "ShilingiZen"}
             </p>
             <p className="shell-brand-subtitle" style={{ fontFamily: "var(--font-primary)" }}>
-              Shilingi Zen
+              ShilingiZen
             </p>
           </div>
         </div>
@@ -169,12 +169,12 @@ export default function AppShell({ title, subtitle, children, aside }) {
             <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
               <img
                 src={logo}
-                alt="Budget Zen"
+                alt="ShilingiZen"
                 style={{ width: 28, height: 28, borderRadius: 8 }}
               />
               <div>
                 <p style={{ margin: 0, fontWeight: 700, fontSize: "0.88rem", color: "var(--text)", fontFamily: "var(--font-secondary)" }}>
-                  Budget Zen
+                  ShilingiZen
                 </p>
                 <p style={{ margin: 0, fontSize: "0.74rem", color: "var(--text-muted)", fontFamily: "var(--font-primary)" }}>
                   Your calm money workspace
