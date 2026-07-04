@@ -74,9 +74,9 @@ export default function AppShell({ title, subtitle, children, aside }) {
             }}
           >
             {[
-              { label: "Income",  value: "KES 85k", color: "var(--accent)"      },
-              { label: "Spent",   value: "KES 62k", color: "var(--success)"     },
-              { label: "Savings", value: "KES 23k", color: "var(--accent-warm)" },
+              { label: "Income",  value: "KES 100k", color: "var(--accent)"      },
+              { label: "Spent",   value: "KES 30k", color: "var(--success)"     },
+              { label: "Savings", value: "KES 50k", color: "var(--accent-warm)" },
             ].map((row) => (
               <div
                 key={row.label}
