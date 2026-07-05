@@ -104,7 +104,7 @@ export default function AppShell({ title, subtitle, children, aside }) {
             Keep every budget in balance.
           </p>
           <p className="shell-promo-copy" style={{ fontFamily: "var(--font-primary)" }}>
-            Switch themes, review trends, and capture expenses in one calm workspace.
+            Switch themes, review trends, and capture expenses in your workspace.
           </p>
         </div>
       </aside>
